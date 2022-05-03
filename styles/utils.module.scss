@@ -1,0 +1,9 @@
+.container {
+  width: 90%;
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+.spacing>*+* {
+  margin-top: .3rem;
+}
