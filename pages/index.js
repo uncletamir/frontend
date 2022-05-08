@@ -46,7 +46,7 @@ export default function Home() {
       params.tagmode = 'any'
     }
     try {
-      const getImages = await axios.get('http://localhost:3001/images', {
+      const getImages = await axios.get('https://backend-flickr-test.herokuapp.com/images', {
         params
       })
 
